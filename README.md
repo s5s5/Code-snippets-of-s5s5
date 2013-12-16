@@ -193,13 +193,13 @@ filter：应该尽量避免使用 AlphaImageLoader，可以适当在投影、发
 
 使用CSS渐变等高级特性，需指定所有浏览器的前缀
 
-.some_element {
-    background: -moz-linear-gradient(top,  #1e5799 0%, #7db9e8 100%);
-    background:     -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(100%,#7db9e8));
-    background: -webkit-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
-    background:     -ms-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
-    background:      -o-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
-}
+    .some_element {
+        background: -moz-linear-gradient(top,  #1e5799 0%, #7db9e8 100%);
+        background:     -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(100%,#7db9e8));
+        background: -webkit-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
+        background:     -ms-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
+        background:      -o-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
+    }
 
 rgba(), hsl(), hsla()只现代浏览器支持，使用时还要加上备用色
 
