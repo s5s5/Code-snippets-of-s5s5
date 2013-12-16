@@ -248,13 +248,14 @@ a {
 
 <p>使用CSS渐变等高级特性，需指定所有浏览器的前缀</p>
 
-<p>.some_element {
+<pre><code>.some_element {
     background: -moz-linear-gradient(top,  #1e5799 0%, #7db9e8 100%);
     background:     -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(100%,#7db9e8));
     background: -webkit-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
     background:     -ms-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
     background:      -o-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
-}</p>
+}
+</code></pre>
 
 <p>rgba(), hsl(), hsla()只现代浏览器支持，使用时还要加上备用色</p>
 
