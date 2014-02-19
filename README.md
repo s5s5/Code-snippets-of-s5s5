@@ -11,7 +11,7 @@ HTML文档声明
 
     <!DOCTYPE html>
 
-HTML编码使用utf-8，放置于<head>区最上方 （文件保存时存为 utf-8 无BOM）
+HTML编码使用utf-8，放置于&lt;head&gt;区最上方 （文件保存时存为 utf-8 无BOM）
 
     <meta charset="utf-8">
 
