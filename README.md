@@ -221,20 +221,6 @@ rgba(), hsl(), hsla()只现代浏览器支持，使用时还要加上备用色
 
 ##OTHER
 
-常用HACK
-
-    .all-IE { property:value\9; }
-    :root .IE-9 { property:value\0/; }
-      .gte-IE-8 { property:value\0; }
-      .lte-IE-7 {  *property:value; }
-          .IE-7 {  +property:value; }
-          .IE-6 { _property:value; }
-      .not-IE {  property//:value;}
-    @-moz-document url-prefix () { .firefox { property:value; } }
-    @media all and (-webkit-min-device-pixel-ratio:0) { .webkit { property:value; } }
-    @media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) { .opera { property:value; } }
-    @media screen and (max-device-width: 480px) { .iphone-or-mobile-s-webkit { property:value; } }
-
 PNG32透明(IE6)
 
     .some_element {
